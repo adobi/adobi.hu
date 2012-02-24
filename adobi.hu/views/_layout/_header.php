@@ -34,11 +34,12 @@
 				<?php if(isset($DisplayHeader)) : ?>
 					<a href = "<?= base_url(); ?>portfolio" id = "header-title">project + work</a>
 					<ul id = "header-menu">
-						<li class = "selected"><a href="javascript:void(0);" data = "{id:1}">colors</a></li>
+						<li class = "selected"><a href="javascript:void(0);" data="{id:6}">kassay zsuzsa</a></li>
+						<li><a href="http://adobi.github.com" target="_blank">github repos</a></li>
+						<li><a href="javascript:void(0);" data = "{id:1}">colors</a></li>
 						<li><a href="javascript:void(0);" data = "{id:2}">error handler</a></li>
 						<li><a href="javascript:void(0);" data = "{id:3}">server admin</a></li>
 						<li><a href="javascript:void(0);" data = "{id:4}">est-vest</a></li>
-						<li><a href="javascript:void(0);" data = "{id:5}">jQuery plugins</a></li>
 					</ul>
 					
 					

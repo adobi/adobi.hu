@@ -28,7 +28,7 @@
      			<div class="image">
 	 				<ul>
 	 					<li>
-							<a href="<?= base_url(); ?>img/big/color.adobi.hu.png" target="_blank">
+							<a href="http://color.adobi.hu" target="_blank">
 								<img src="<?= base_url(); ?>img/small/color.adobi.hu.jpg" alt="" />
 							</a>
 	 					</li>	 					
@@ -44,13 +44,13 @@
 		 				<li>
 		 					<span class = "description-item">Description</span>
 		 					<p>
-								<em>under construction</em>
+								<em>Personal project</em>
 		 					</p>
 		 				</li>
 		 				<li>
 		 					<span class = "description-item">Technology</span>
 		 					<ul>
-		 						<li>PHP(ZFW)</li>
+		 						<li>PHP(Zend Framework)</li>
 		 						<li>MySQL</li>
 		 						<li>jQuery</li>
 		 						<li>XHTML1.1</li>
@@ -104,13 +104,13 @@
 		 				<li>
 		 					<span class = "description-item">Description</span>
 		 					<p>
-								<em>under construction</em>
+								<em>Task manager</em>
 		 					</p>
 		 				</li>
 		 				<li>
 		 					<span class = "description-item">Technology</span>
 		 					<ul>
-		 						<li>PHP(ZFW)</li>
+		 						<li>PHP(Zend Framework)</li>
 		 						<li>MySQL</li>
 		 						<li>JavaScript(jQuery), AJAX</li>
 		 						<li>XHTML1.1</li>
@@ -155,7 +155,7 @@
 		 				<li>
 		 					<span class = "description-item">Technology</span>
 		 					<ul>
-		 						<li>PHP(ZFW)</li>
+		 						<li>PHP(Zend Framework)</li>
 		 						<li>MySQL</li>
 		 						<li>JavaScript(jQuery), AJAX</li>
 		 						<li>XHTML1.1</li>
@@ -179,10 +179,10 @@
      			<div class="image">
      				<ul>
      					<li>
-     						<a href="<?= base_url(); ?>img/big/est-vest.ro.png" target="_blank">
+     						<a href="#" target="_blank">
 								<img src="<?= base_url(); ?>img/small/est-vest.ro.jpg" alt="" />
 							</a>
-     					</li>
+     					</li>						
      				</ul>
      			</div>
      			<span class="right-arrow">&raquo;</span>
@@ -194,13 +194,13 @@
 		 				<li>
 		 					<span class = "description-item">Description</span>
 		 					<p>
-								<em>under construction</em>
+								<em>Website for the company Est-Vest Ltd.</em>
 		 					</p>
 		 				</li>
 		 				<li>
 		 					<span class = "description-item">Technology</span>
 		 					<ul>
-		 						<li>PHP(CI)</li>
+		 						<li>PHP(CodeIgniter)</li>
 		 						<li>MySQL</li>
 		 						<li>JavaScript(jQuery), AJAX</li>
 		 						<li>XHTML1.1</li>
@@ -214,6 +214,53 @@
  			</div><!-- portfolio-item-description -->
      		
  		</div><!-- portfolio-item --> 
+     	<div class="portfolio-item pi-6">
+			<div class = "portfolio-item-title">
+				Zsuzsa Kassay's website
+			</div><!-- portfolio-item-title -->
+			<div class = "portfolio-item-images">
+				<span class="left-arrow">&laquo;</span>
+				<div class="image">
+					<ul>
+						<li>
+							<a href="#" target="_blank">
+								<img src="<?= base_url(); ?>img/small/kassayzsuzsa-1.png" alt="" />
+							</a>
+						</li>
+						<li>
+							<a href="#" target="_blank">
+								<img src="<?= base_url(); ?>img/small/kassayzsuzsa-2.png" alt="" />
+							</a>
+						</li>						
+					</ul>
+				</div>
+				<span class="right-arrow">&raquo;</span>
+			</div><!-- portfolio-item-images -->
+			
+			<div class="portfolio-item-description">
+				<div class = "description-content">
+					<ul class = "description-items">
+						<li>
+							<span class = "description-item">Description</span>
+							<p>
+								<em>Website for Zsuzsa Kassay</em>
+							</p>
+						</li>
+						<li>
+							<span class = "description-item">Technology</span>
+							<ul>
+								<li>PHP</li>
+								<li>JavaScript(jQuery)</li>
+								<li>XHTML1.1</li>
+								<li>CSS</li>
+							</ul>
+						</li>
+						<li><span class = "description-item">See in action</span> <a href="http://http://kassayzsuzsa.com/">kassayzsuzsa.com</a></li>
+					</ul>
+				</div>
+			</div><!-- portfolio-item-description -->
+			
+		</div><!-- portfolio-item --> 
  				
      	<div class="portfolio-item pi-5" style = "width:950px">
      		<div class = "portfolio-item-title">

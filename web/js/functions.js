@@ -38,10 +38,10 @@
 				self.parents('.portfolio-item').hide();
 			});
 			
-			$('.pi-1').find('.left-arrow').addClass('prev');
-			$('.pi-1').find('.right-arrow').addClass('next');
-			$('.pi-1').find('.image').addClass('my-carousal');
-			$('.pi-1').show();
+			$('.pi-6').find('.left-arrow').addClass('prev');
+			$('.pi-6').find('.right-arrow').addClass('next');
+			$('.pi-6').find('.image').addClass('my-carousal');
+			$('.pi-6').show();
 
 			$('#header-menu a, #footer-content a').bind('click', function() {
 				

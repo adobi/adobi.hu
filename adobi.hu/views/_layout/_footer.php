@@ -14,10 +14,7 @@
 								<a href="javascript:void(0);" data = "{id:1}">colors</a>
 							</li>
 							<li>
-								<a href="javascript:void(0);" data = "{id:5}">jQuery plugins</a>
-							</li>
-							<li>
-								<a href="http://github.com/adobi" target = "_blank">GitHub</a>
+								<a href="http://adobi.github.com/" target = "_blank">github repos</a>
 							</li>
 						</ul>					
 					</div>
