@@ -208,7 +208,7 @@
 		 						<li>XML</li>
 		 					</ul>
 	 					</li>
-		 				<li><span class = "description-item">See in action</span> <a href="http://est-vest.ro">est-vest.ro</a></li>
+		 				<li><span class = "description-item">See in action</span> <a target="_blank" href="http://est-vest.ro">est-vest.ro</a></li>
 		 			</ul>
      			</div>
  			</div><!-- portfolio-item-description -->
@@ -255,7 +255,7 @@
 								<li>CSS</li>
 							</ul>
 						</li>
-						<li><span class = "description-item">See in action</span> <a href="http://http://kassayzsuzsa.com/">kassayzsuzsa.com</a></li>
+						<li><span class = "description-item">See in action</span> <a target="_blank" href="http://kassayzsuzsa.com/">kassayzsuzsa.com</a></li>
 					</ul>
 				</div>
 			</div><!-- portfolio-item-description -->

@@ -22,6 +22,9 @@
 						<h3>&nbsp;Work</h3>
 						<ul>
 							<li>
+								<a href="javascript:void(0);" data = "{id:6}">kassayzsuzsa.com</a>
+							</li>						
+							<li>
 								<a href="javascript:void(0);" data = "{id:2}">error handler</a>
 							</li>							<li>
 								<a href="javascript:void(0);" data = "{id:3}">server admin</a>
