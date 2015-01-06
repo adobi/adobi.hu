@@ -28,7 +28,7 @@
 				<dd class="clear"></dd>
 
 				<dt>Email:</dt>
-				<dd><a href="<?= base_url(); ?>contact" class = "email">hello[at]adobi.hu</a></dd>
+				<dd><a href="mailto:hello@adobi.hu" class = "email">hello[at]adobi.hu</a></dd>
 				<dd class="clear"></dd>
 
 				<dt>Web:</dt>
@@ -52,10 +52,13 @@
 
 				<dt>Experience</dt>
 				<dd>
-					<h2>Invictus-Games Ltd.<span>2010 july-present</span></h2>
+					<h2>wizando.com <a href="http://wizando.com" target="_blank">&raquo;</a><span>2012 october-present</span></h2>
+					<p>Front-End Engineer.</p>
+					
+					<h2>Invictus-Games Ltd.<a href="http://invictus.com" target="_blank">&raquo;</a><span>2010 july-2012 october</span></h2>
 					<p>PHP developer.</p>
 
-					<h2>Web-Server Ltd.<span>2008 december-2010 june</span></h2>
+					<h2>Web-Server Ltd.<a href="http://web-server.hu" target="_blank">&raquo;</a><span>2008 december-2010 june</span></h2>
 					<p>PHP developer.</p>
 					
 					<h2>Freelancer <span>2006-present</span></h2>
@@ -77,11 +80,12 @@
 				<dt>Skills</dt>
 				<dd>
 					<h2>Programming languages</h2>
-					<p>
+					<p style="line-height:1.5">
 						PHP <span>(
 						    <a href = "http://framework.zend.com">Zend Framework</a>, 
 						    <a href = "http://codeigniter.com">CodeIgniter</a>,
-						    <a href = "http://www.yiiframework.com">Yii</a>
+						    <a href = "http://www.yiiframework.com">Yii</a>,
+						    <a href = "http://symfony.com/">Symfony</a>
 						)</span>,
 						Javascript <span>(<a href = "http://jquery.com">jQuery</a>)</span>,<br />
 						Java,
@@ -130,7 +134,7 @@
 					</p>
 
 					<h2>Design</h2>
-					<p>UML, Design Patterns</p>
+					<p>UML, Design Patterns, UI/UX</p>
 				</dd>
 				<dd class = "clear"></dd>
 				
