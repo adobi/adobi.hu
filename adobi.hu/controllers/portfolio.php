@@ -2,18 +2,14 @@
 
 	if (! defined('BASEPATH')) exit('No direct script access');
 	
-	class Portfolio extends Controller {
+	class Portfolio extends CI_Controller {
 	
 		//php 5 constructor
 		function __construct() {
-			parent::Controller();
+			parent::__construct();
 		}
-		
-		//php 4 constructor
-		function Portfolio() {
-			parent::Controller();
-		}
-		
+
+			
 		function index() {
 			$data = array('MainContent'=>'portfolio/index', 'AjaxContent'=>false);
 			$data['DisplayHeader'] = true;

@@ -2,18 +2,13 @@
 
 if (! defined('BASEPATH')) exit('No direct script access');
 
-class Resume extends Controller {
+class Resume extends CI_Controller {
 
 	//php 5 constructor
 	function __construct() {
-		parent::Controller();
+		parent::__construct();
 	}
-	
-	//php 4 constructor
-	function Resume() {
-		parent::Controller();
-	}
-	
+
 	function index() {
 			$data = array('MainContent'=>'resume/index', 'AjaxContent'=>false);
 			

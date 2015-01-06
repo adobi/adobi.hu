@@ -1,6 +1,6 @@
 <?php
 
-	class User extends Controller {
+	class User extends CI_Controller {
 	
 		public function User() {
 			

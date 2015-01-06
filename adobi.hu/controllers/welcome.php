@@ -1,10 +1,10 @@
 <?php
 
-class Welcome extends Controller {
+class Welcome extends CI_Controller {
 
-	function Welcome()
-	{
-		parent::Controller();	
+	//php 5 constructor
+	function __construct() {
+		parent::__construct();
 	}
 	
 	function index()
