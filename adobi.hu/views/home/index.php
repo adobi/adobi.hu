@@ -2,25 +2,17 @@
 		
 		<div class = "message">
 			<br />
-			<span class = "hello courier">
+			<p class = "hello courier">
 				HELLO
-			</span>
-			<br />
-			<span class = "courier">my name is</span>
-			<br />
-			<br />
-			<span class = "adobi my-name">
-				Dobi Attila <span style = "color:#666666;"> - </span> 
-				 
+			</p>
+			<p class = "courier">my name is</p>
+			<p class = "adobi my-name">
+				Attila Dobi <span style = "color:#666666;"> - </span> 
 				<span class = "nick"><a href="<?= base_url(); ?>resume" id = "adobi-resume">adobi</a></span> 
 				<!-- <span class="exclamation-mark">&nbsp;</span> http://twitter.com/adobi" target="_blank -->
-				<br />
-			</span>						
-			<span class = "courier">I'm a </span>
-			<br />
-			<span class = "adobi title"><a href="<?= base_url(); ?>portfolio" id = "adobi-portfolio">web developer</a></span>
-			<br />
-			<br />
+			</p>						
+			<p class = "courier">I'm a </p>
+			<p class = "adobi title"><a href="<?= base_url(); ?>resume" id = "adobi-portfolio">full-stack web developer</a></p>
 		</div><!-- message -->	
 	
 		<div class = "information">

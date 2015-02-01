@@ -1,17 +1,17 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-
-	<head>
-		<title>&laquo; adobi &raquo;</title>
-
-		<meta name="description" content="I'm Dobi Attila, a web developer from Debrece" />
-		<meta name="keywords" content="Dobi Attila debrece, web developer debrecen, web development debrecen, php debrecen, javascript debrecen" />
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<title>&laquo; adobi &raquo;</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<meta name="description" content="I'm Dobi Attila, a web developer from Debrecen" />
+		<meta name="keywords" content="Dobi Attila debrecen, web developer debrecen, web development debrecen, php debrecen, javascript debrecen" />
 		<meta name="author" content="Dobi Attila" />    	
 		<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />		
 		<meta name="google-site-verification" content="7xn52P4_OQD2-me0rq4p86dvEgUhxzggnwcIAnd5xX0" />
 		<link rel="stylesheet" href="<?= base_url(); ?>css/reset.css" type="text/css" media="screen" charset="utf-8" />
-		<link rel="stylesheet" href="<?= base_url(); ?>css/page.css?<?= time(); ?>" type="text/css" media="screen" charset="utf-8" />
+		<link rel="stylesheet" href="<?= base_url(); ?>css/page.css" type="text/css" media="screen" charset="utf-8" />
 		
 		
 		<script src="http://www.google.com/jsapi" type="text/javascript"></script>

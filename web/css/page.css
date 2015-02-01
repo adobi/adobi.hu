@@ -1,5 +1,9 @@
 @import url('reset.css');
-
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
 body, html {
 	height: 100%;
 }
@@ -15,7 +19,7 @@ body {
 }
 
 
-div#container { 
+#container { 
 	width:950px; 
 	text-align:left; 
 	font-size:1.2em; 
@@ -124,7 +128,7 @@ h1 { font-size: 18px; }
 			border-right:1px solid #FF6633;
 		}
 
-div#footer {
+#footer {
 	color: #C1C1C1;
 	font-size: 13px;
 	background: #453A31;
@@ -135,15 +139,15 @@ div#footer {
 	//font-family: Tahoma,Trebuchet,Verdana,sans;
 	font-family:"Helvetica";
 } 
-	div#footer a, div#footer a:hover{
+	#footer a, #footer a:hover{
 		background:transparent;
 		color:#c1c1c1;
 		text-decoration:none;
 	}
-	div#footer a:hover {
+	#footer a:hover {
 		text-decoration:underline;
 	}
-	div#footer-content {
+	#footer-content {
 		margin:0 auto;
 		text-align:left;
 		width:880px; 
@@ -163,29 +167,29 @@ div#footer {
 				text-decoration:none!important;
 			}
 
-div#portfolio {
+#portfolio {
 	width:100%;
 	/*border:1px solid #ccc;*/
 }
-	div#portfolio a, div#portfolio a:hover {
+	#portfolio a, #portfolio a:hover {
 		background:transparent;
 		
 	}
-	div#portfolio a {
+	#portfolio a {
 		color:#FF6633;
 		font-weight:bold;
 	}
-	div#portfolio a:hover {
+	#portfolio a:hover {
 		text-decoration:underline;
 	}
 
-	div.portfolio-item {
+	.portfolio-item {
 		padding:10px;
 		float:left;
 		overflow:hidden;
 		height: 650px;
 	}
-		div.portfolio-item-title{
+		.portfolio-item-title{
 			/*border:1px solid #ccc;*/
 			padding:10px 10px 10px 40px;
 			color:#301242;
@@ -193,17 +197,17 @@ div#portfolio {
 			//font-style:italic;
 			//font-family:"Cambria", "Verdana";			
 		}
-		div.portfolio-item-images{
+		.portfolio-item-images{
 			/*border:1px solid #ccc;*/
 			padding:10px;
 			float:left;
 			height:600px;
 			
 		}
-			div.portfolio-item-images a, div.portfolio-item-images a:hover {
+			.portfolio-item-images a, .portfolio-item-images a:hover {
 				background:transparent;
 			}
-			div#portfolio .left-arrow, div#portfolio .right-arrow {
+			#portfolio .left-arrow, #portfolio .right-arrow {
 				/*border:1px solid #ccc;*/
 				font-size:3.0em;
 				color:#630030;
@@ -211,13 +215,13 @@ div#portfolio {
 				cursor:pointer;
 			}
 			
-			div#portfolio .left-arrow {
+			#portfolio .left-arrow {
 				float:left;
 			}
-			div#portfolio .right-arrow {
+			#portfolio .right-arrow {
 				float:right;
 			}
-			div#portfolio div.image{
+			#portfolio .image{
 				/*float:center;*/
 				float:left;
 				/*width:460px;
@@ -232,25 +236,25 @@ div#portfolio {
 				overflow:hidden;
 				height:550px;
 			}
-			div.image ul li{
+			.image ul li{
 				width:450px!important;
 				height:550px;
 				/*height:500px!important;*/
 				padding:10px; margin:0px;
 			}
 		
-		div.portfolio-item-description {
+		.portfolio-item-description {
 			/*border:1px solid #ccc;*/
 			float:left;
 			padding:0 10px;
 
 		}
-			div.portfolio-item-description .description-content {
+			.portfolio-item-description .description-content {
 				/*border:1px solid #ccc;*/
 				width:290px;
 				padding:10px 10px 10px 20px;
 			}
-			div.portfolio-item-description ul.description-items {
+			.portfolio-item-description ul.description-items {
 				list-style-image:url('../img/asterisk_orange.png');
 				text-align:left; 
 				line-height:2em;
@@ -272,7 +276,7 @@ div#portfolio {
 			font-size:1.5em;
 			color:#A9014B!important;
 		}			
-		div.code-snippet {
+		.code-snippet {
 			padding:10px;
 			margin:10px 30px 10px 0;
 			font-size:12px;
@@ -283,18 +287,18 @@ div#portfolio {
 			background:#222222;	
 			color:#ffffff;
 		}
-		div.code-snippet .string {
+		.code-snippet .string {
 			color:#4DBD00;
 		}
-		div.code-snippet .number {
+		.code-snippet .number {
 			color:#74AF4C;
 			font-weight:bold;
 		}
-		div.code-snippet .boolean {
+		.code-snippet .boolean {
 			color:#FFCC66;
 			font-weight:bold;
 		}		
-		div.code-snippet .keyword {
+		.code-snippet .keyword {
 			color:#DE7E2E;
 			font-weight:bold;
 		}
@@ -315,7 +319,9 @@ div#portfolio {
 		float:left;
 		color:#A56548;
 	}
-	
+		.message p {
+			margin-bottom:5px;
+		}
 		.hello {
 			font-size:30px;
 			letter-spacing:25px;
@@ -361,7 +367,7 @@ div#portfolio {
 		padding:0px;
 		text-align:left;
 		padding:20px 0 10px 20px;	
-		height:231px;
+		height:261px;
 		-moz-border-radius-topright:20px;
 		-webkit-border-top-right-radius:20px;
 		-moz-border-radius-bottomright:20px;
@@ -502,7 +508,7 @@ div#portfolio {
 }
 
 /*resume*/
-div#resume-wrap {
+#resume-wrap {
 	width:800px; margin:40px auto 60px;
 	font:16px Helvetica, sans-serif!important;
 	line-height:24px;
@@ -510,7 +516,7 @@ div#resume-wrap {
 	margin-top:-50px;
 }
 
-	div #resume-wrap h1 {
+	#resume-wrap h1 {
 		margin: 0 0 16px 0; 
 		padding: 0 0 16px 0; 
 		font-size: 42px; 
@@ -519,61 +525,66 @@ div#resume-wrap {
 		border-bottom: 1px solid #999;
 	}
 	
-	div#resume-wrap h2 {
-		font-size: 17px; margin: 0 0 6px 0; position: relative;
+	#resume-wrap h2 {
+		font-size: 17px; margin: 20px 0 15px 0; position: relative;
+	}
+
+	#resume-wrap h2:first-child {
+		margin-top:0;
 	}
 
 		
-	div#resume-wrap p {
+	#resume-wrap p {
 		margin: 0 0 16px 0;
+		line-height: 1.5;
 		
 	}
 	
-	div#resume-wrap a {
+	#resume-wrap a {
 		color: #999; text-decoration: none; border-bottom: 1px dotted #999; background:transparent;
 	}
 	
-	div#resume-wrap a:hover {
+	#resume-wrap a:hover {
 		border-bottom-style: solid; color: black;
 	}
 		
-	div#resume-wrap ul { font-size: 14px; margin: 0 0 32px 17px; list-style: square!important; }
+	#resume-wrap ul { font-size: 14px; margin: 0 0 20px 17px; list-style: square!important; }
 	
-		div#resume-wrap ul li {position: relative;}
+		#resume-wrap ul li {position: relative;}
 		
-		div#resume-wrap h2 span, div#resume-wrap p span, div#resume-wrap h2 a, div#resume-wrap small  {
+		#resume-wrap h2 span, #resume-wrap p span, #resume-wrap h2 a, #resume-wrap small  {
 			font-style: italic; 
 			font-family: Georgia, Serif; 
 			font-size: 16px; 
 			color: #999; 
 			font-weight: normal;
 		}
-		div#resume-wrap h2 span {
+		#resume-wrap h2 span {
 			position: absolute; 
 			bottom: 0; 
 			left: 200px;
 		}
 		
-		div#resume-wrap small {
+		#resume-wrap small {
 			display:block;
 			margin-top:8px;		
 		}
 		
-		div#resume-wrap li span {
+		#resume-wrap li span {
 			margin-left:10px;
 			position:static;
 		}
 	
-	div#resume-wrap #contact-info dt{
+	#resume-wrap #contact-info dt{
 		float:left;
 		width:55px;
 	}
-	div#resume-wrap #contact-info dd{
+	#resume-wrap #contact-info dd{
 		float:left;
 	}
-		div#resume-wrap #contact-info dd.clear { float: none; margin: 0; height: 5px; }
+		#resume-wrap #contact-info dd.clear { float: none; margin: 0; height: 5px; }
 	
-	div#resume-wrap #personal-info dt { 
+	#resume-wrap #personal-info dt { 
 		font-style: italic; 
 		font-weight: bold; 
 		font-size: 18px; 
@@ -586,13 +597,15 @@ div#resume-wrap {
 		height:100%;
 		border-right: 1px solid #999;  
 	}
-    div#resume-wrap #personal-info dd { 
+    #resume-wrap #personal-info dd { 
     	width: 600px; 
     	float: right; 
 	}
-    	div#resume-wrap #personal-info dd.clear { float: none; margin: 0; height: 15px; }
+    	#resume-wrap #personal-info dd.clear { float: none; margin: 0; height: 15px; }
 	
-
+    #personal-info li {
+    	line-height: 2;
+    }
 .clear {
 	clear:both;
 }
@@ -611,3 +624,70 @@ div#resume-wrap {
 .tipsy-south { background-position: bottom center; }
 .tipsy-east { background-position: right center; }
 .tipsy-west { background-position: left center; }
+
+@media (max-width: 992px) {
+	#header {
+		display: none;
+	}
+	#container {
+		width: 100%;
+	}
+	#mainpage {
+		float:none;
+		margin: 0 20px;
+	}
+	.message, .information {
+		float: none;
+		width: 100%;
+		border-radius: 5px;
+		margin-top:20px;
+		height: auto;
+		overflow: hidden;
+	}
+	.information {
+		padding:10px;
+	}
+
+	#resume-wrap {
+		width: 100%;
+		padding: 20px;
+		margin-top:0px;
+	}
+	#resume-wrap #personal-info dt {
+		float:none;
+		width: 100%;
+		border-right-width: 0;
+		border-bottom: 1px solid #999;
+		min-height:10px;
+		height:auto;
+		margin-bottom: 20px;
+		text-align: left;
+		line-height: 2;
+	}
+	#resume-wrap #personal-info dd {
+		float:none;
+		width: 100%;
+	}
+}
+@media (max-width: 767px) {
+	html, body {
+		height: auto;
+	}
+	.message {
+		padding: 0 10px 10px 10px;
+	}
+	.my-name {
+		font-size: 32px;
+	}
+	.information .personal {
+		float:none;
+		margin:0;
+		font-size: 14px!important;
+	}
+	#resume-wrap h2 span {
+		position: relative;
+		display: block;
+		left:0;
+		margin-top:10px;
+	}
+}

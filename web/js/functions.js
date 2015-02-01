@@ -102,7 +102,7 @@
 			if(document.getElementById('adobi-portfolio')) {
 				$('#adobi-portfolio').tipsy({
 					gravity: 'n',
-					fallback: 'See my portfolio',
+					fallback: 'See my resume',
 					fade: true
 				});
 			}
