@@ -68,7 +68,7 @@
 					<p style="margin-bottom:0">Some of them:</p>
 					<ul style="margin-bottom:10px;">
 						<li><a href="http://invictus.com">invictus.com</a>: Company website. My job was the design and implementation of a custom CMS. <div>Technology stack: CodeIgniter, Twitter's Bootstrap, Less, Grunt</div></li>
-            <li><a href="http://press.invictus.com">press.invictus.hu</a>:</li>
+            <li><a href="http://press.invictus.com">press.invictus.hu</a>: A CMS for press releases</li>
 						<li><a href="http://innologin.hu">innologin.hu</a>: website development.</li>
 						<li><a href="http://igenx.hu">igenx.hu</a>: application design, contact with the customer.<div>Technology stack: CodegnIter, jQuery, CSS, HTML</div></li>
 					</ul>
@@ -178,7 +178,7 @@
 			    </h2> 
           <ul>
             <li><a href="http://dent.doctype.hu" target="_blank">Simple-Dent</a> A management system for dentists(orthodontists)</li>
-            <li><a href="http://dent.doctype.hu" target="_blank">color.adobi.hu</a> a collection of colors for future inspiration</li>
+            <li><a href="http://color.adobi.hu" target="_blank">color.adobi.hu</a> a collection of colors for future inspiration</li>
             <li><a href="http://adobi.github.io/" target="_blank">Some of my github repos</a></li>
           </ul>
 				</dd>

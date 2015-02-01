@@ -34,7 +34,7 @@
 				</li>
 				<li>
 					<span class = "information-name">Web:</span>
-					<a href="<?php base_url(); ?>">http://www.adobi.hu </a>
+					<a href="<?php base_url(); ?>">http://adobi.hu </a>
 				</li>
 				<li>
 					<span class = "information-name">Email:</span>
