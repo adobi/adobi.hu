@@ -69,7 +69,7 @@
           <ul>
             <li>Several API's for social and mobile games.</li>
             <li>A data-driven cross-promotion system for mobile games.</li>
-            <li>Several application to help to publish and promote games: a CMS for microsites, in-game news</li>
+            <li>Several application to help to publish and promote games: a CMS for microsites, in-game news.</li>
             <li>A social game(un-published). Role: development of an API for the flash client and the CodeIgniter backend with a MongoDB database.</li>
           </ul>
 
