@@ -63,14 +63,14 @@
 						<li><a href="http://invictus.com">invictus.com</a>: Company website. Role: design and implementation of a custom CMS. <div>Technology stack: CodeIgniter, Twitter's Bootstrap, Less, Grunt, MySQL.</div></li>
             <li><a href="http://press.invictus.com">press.invictus.hu</a>: A CMS for press releases. Role: design and implementation. <div>Technology stack: CodegnIter, jQuery, CSS, HTML, MySQL.</div></li>
 						<li><a href="http://innologin.hu">innologin.hu</a>: Company website. Role: development.</li>
-						<li><a href="http://igenx.hu">igenx.hu</a>: Web application. Role: application design, contact with the customer, developement.<div>Technology stack: CodegnIter, jQuery, CSS, HTML, MySQL.</div></li>
+						<li><a href="http://igenx.hu">igenx.hu</a>: Web application. Role: application design, contact with the customer, development.<div>Technology stack: CodegnIter, jQuery, CSS, HTML, MySQL.</div></li>
 					</ul>
           <p style="margin-bottom:0;">Other, internally used tools and systems:</p>
           <ul>
             <li>Several API's for social and mobile games.</li>
             <li>A data-driven cross-promotion system for mobile games.</li>
             <li>Several application to help to publish and promote games: a CMS for microsites, in-game news.</li>
-            <li>A social game(un-published). Role: development of an API for the flash client and the CodeIgniter backend with a MongoDB database.</li>
+            <li>A social game(un-published). Role: development of an API for the client, a HTML and javascript front-end and a back-end using CodeIgniter and MongoDB.</li>
           </ul>
 
 					<h2>Web-Server Ltd.<a href="http://web-server.hu" target="_blank">&raquo;</a><span>2008 december-2010 june</span></h2>
@@ -83,16 +83,25 @@
           <p>Technology stack: ZendFramework, HTML, jQuery, CSS, MySQL</p>
 					
 					<h2>Freelancer <span>2006-present</span></h2>
-					<p>Developing websites and web applications for clients from Romania and USA.</p>
-          <p style="margin-bottom:0">Such as:</p>
-          <ul>
-            <li><a href="http://adobi.hu/" target="_blank">adobi.hu</a></li>
-            <li><a href="http://kassayzsuzsa.com/" target="_blank">kassayzsuzsa.com</a></li>
+					<p style="margin-bottom:0">Developing websites and web applications for clients from Romania and USA.</p>
+					<ul>
+						<li><a href="http://www.hotellycium.hu/" target="_blank">hotellycium.hu</a></li>
             <li><a href="http://est-vest.ro/" target="_blank">est-vest.ro</a></li>
+					</ul>
+				</dd>
+				<dd class = "clear"></dd>
+				<dt>Side projects</dt>
+				<dd>
+          <ul>
+            <li><a href="http://dent.doctype.hu" target="_blank">Simple-Dent</a> A management application for dentists(orthodontists).</li>
+            <li><a href="http://color.adobi.hu" target="_blank">color.adobi.hu</a> A collection of colors for future inspiration.</li>
+            <li><a href="http://adobi.hu/" target="_blank">adobi.hu</a> My personal website</li>
+            <li><a href="http://kassayzsuzsa.com/" target="_blank">kassayzsuzsa.com</a> My wife's website</li>
+            <li><a href="http://adobi.github.io/" target="_blank">Github repositories</a></li>
           </ul>
 				</dd>
 				<dd class = "clear"></dd>
-								
+		
 				<dt>Education</dt>
 				<dd>
 					<h2>University of Debrecen Faculty of Informatics</h2>
@@ -161,16 +170,6 @@
 				</dd>
 				<dd class = "clear"></dd>
 				
-				<dt>Side projects</dt>
-				<dd>
-          <ul>
-            <li><a href="http://dent.doctype.hu" target="_blank">Simple-Dent</a> A management application for dentists(orthodontists).</li>
-            <li><a href="http://color.adobi.hu" target="_blank">color.adobi.hu</a> a collection of colors for future inspiration.</li>
-            <li><a href="http://adobi.github.io/" target="_blank">Github repositories</a></li>
-          </ul>
-				</dd>
-				<dd class = "clear"></dd>
-
 				<dt>Language skills</dt>
 				<dd>
 					<ul>
