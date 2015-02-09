@@ -2,10 +2,10 @@
 	<div id="resume-wrap">
 		
 		<div id="contact-info" class = "vcard">
-			
+			<p style="margin-bottom:30px;text-align:center;"><a href="<?php base_url() ?>docs/adobi-resume.pdf">download resume as pdf</a></p>
 			<h1 class = "fn">
-				Attila Dobi
 				<div class="adobi-img"></div>
+				Attila Dobi <span class="download"></span>
 			</h1>
 		</div> <!-- contact-info -->
 		
@@ -29,6 +29,9 @@
 						<dd class="clear"></dd>
 						<dt>Email</dt>
 						<dd><a href="mailto:hello@adobi.hu" class = "email">hello[at]adobi.hu</a></dd>
+						<dd class="clear"></dd>
+						<dt>Skype</dt>
+						<dd><a href="#" class = "email">adobi82</a></dd>
 						<dd class="clear"></dd>
 						<dt>Web</dt>
 						<dd>

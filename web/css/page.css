@@ -523,7 +523,7 @@
 
 	/*resume*/
 	#resume-wrap {
-		width:800px; margin:40px auto 60px;
+		width:800px; margin:10px auto 60px;
 		font:16px Helvetica, sans-serif!important;
 		line-height:24px;
 		color:#111111!important;
@@ -557,6 +557,11 @@
 		
 		#resume-wrap a {
 			color: #999; text-decoration: none; border-bottom: 1px dotted #999; background:transparent;
+		}
+
+		#resume-wrap .download {
+			font-size: 24px;
+			font-weight:normal;
 		}
 		
 		#resume-wrap a:hover {
@@ -644,6 +649,10 @@
 		clear:both;
 	}
 
+	.text-right {
+		text-align:right;
+	}
+
 	/* tipsy */
 	.tipsy { padding: 5px; font-size: 11px; 	
 		filter:alpha(opacity=50);
@@ -658,7 +667,6 @@
 	.tipsy-south { background-position: bottom center; }
 	.tipsy-east { background-position: right center; }
 	.tipsy-west { background-position: left center; }
-
 }
 
 @media screen and (max-width: 992px) {
@@ -733,4 +741,10 @@
 		margin-bottom:10px;
 		font-weight: bold;
 	}
+}
+
+@media print {
+		#resume-wrap a {
+			border-bottom: 1px solid #999;
+		}	
 }
