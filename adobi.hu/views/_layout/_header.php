@@ -10,9 +10,8 @@
 		<meta name="author" content="Dobi Attila" />    	
 		<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />		
 		<meta name="google-site-verification" content="7xn52P4_OQD2-me0rq4p86dvEgUhxzggnwcIAnd5xX0" />
-		<link rel="stylesheet" href="<?= base_url(); ?>css/reset.css" type="text/css" media="screen" charset="utf-8" />
-		<link rel="stylesheet" href="<?= base_url(); ?>css/page.css" type="text/css" media="screen" charset="utf-8" />
-		
+		<link rel="stylesheet" href="<?= base_url(); ?>css/reset.css" type="text/css" media="screen, print" charset="utf-8" />
+		<link rel="stylesheet" href="<?= base_url(); ?>css/page.css" type="text/css" media="screen, print" charset="utf-8" />		
 		
 		<script src="http://www.google.com/jsapi" type="text/javascript"></script>
 		<script type="text/javascript" charset="utf-8">
