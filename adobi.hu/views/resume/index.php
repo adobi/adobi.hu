@@ -25,7 +25,7 @@
 						<dd class = "tel">Married</dd>
 						<dd class="clear"></dd>
 						<dt>Cell</dt>
-						<dd class = "tel"><div>+36-70-39-27-700</div> <div style="margin-top:10px;">+40-74-02-98-580</div></dd>
+						<dd class = "tel"><div style="margin-bottom:10px;">+40-74-02-98-580</div><div>+36-70-39-27-700</div> </dd>
 						<dd class="clear"></dd>
 						<dt>Email</dt>
 						<dd><a href="mailto:hello@adobi.hu" class = "email">hello[at]adobi.hu</a></dd>
@@ -51,8 +51,8 @@
 				<dd>
 					<h2>wizando.com <a href="http://wizando.com" target="_blank">&raquo;</a><span>2012 october-present</span></h2>
 					<p>Front-End Engineer.</p>
-					<p>My responsability is to design, build and maintain the front-end of the application.</p>
-					<p>Technology stack: HTML5, CSS3(with <a href="http://lesscss.org" target="_blank">Less</a>, responsive layout), 
+					<p>My responsability is to design, build and maintain the front-end of the application. In the past few months I also worked with the Symfony backend.</p>
+					<p>Technology stack: <a href = "http://symfony.com/" target="_blank">Symfony 2.3</a>, HTML5, CSS3(with <a href="http://lesscss.org" target="_blank">Less</a>, responsive layout), 
 						jQuery, 
 						<a href="http://gruntjs.com" target="_blank">Grunt</a>, 
 						<a href="http://getbootstrap.com" target="_blank">Twitter's Bootstrap</a>, 
@@ -81,7 +81,7 @@
           <p style="margin-bottom:0">My job was to design and implement several internally used web applications, such as:</p>
           <ul style="margin-bottom:0;">
             <li>An error reporting application, to help the work and communication between a front and back office.</li>
-            <li>A server management application.</li>
+            <li>A server management tools.</li>
           </ul>
           <p>Technology stack: ZendFramework, HTML, jQuery, CSS, MySQL</p>
 					
@@ -119,7 +119,7 @@
 				<dt>Skills</dt>
 				<dd>
 					<h2>Programming languages</h2>
-					<p style="line-height:1.5">
+					<p>
 						PHP <span>(
                 <a href = "http://laravel.com/" target="_blank">Laravel</a>
                 <a href = "http://symfony.com/" target="_blank">Symfony</a>
@@ -134,7 +134,7 @@
 					
 					<h2>Markup languages</h2>
 					<p>
-						HTML, HTML5, CSS<span>(2, 3)</span>, XML, JSON
+						HTML5, CSS<span>(2, 3)</span>, XML, JSON
 					</p>
 					
 					<h2>Databases</h2>
