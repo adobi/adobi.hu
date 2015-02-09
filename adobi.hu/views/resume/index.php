@@ -51,7 +51,7 @@
 				<dd>
 					<h2>wizando.com <a href="http://wizando.com" target="_blank">&raquo;</a><span>2012 october-present</span></h2>
 					<p>Front-End Engineer.</p>
-					<p>My responsability is to design, build and maintain the front-end of the application. In the past few months I also worked with the Symfony backend.</p>
+					<p>My responsability is to design, build and maintain the front-end of the application. In the past few months I also worked with the back-end(Symfony).</p>
 					<p>Technology stack: <a href = "http://symfony.com/" target="_blank">Symfony 2.3</a>, HTML5, CSS3(with <a href="http://lesscss.org" target="_blank">Less</a>, responsive layout), 
 						jQuery, 
 						<a href="http://gruntjs.com" target="_blank">Grunt</a>, 
@@ -66,27 +66,26 @@
 						<li><a href="http://invictus.com">invictus.com</a>: Company website. Role: design and implementation of a custom CMS. <div>Technology stack: CodeIgniter, Twitter's Bootstrap, Less, Grunt, MySQL.</div></li>
             <li><a href="http://press.invictus.com">press.invictus.hu</a>: A CMS for press releases. Role: design and implementation. <div>Technology stack: CodegnIter, jQuery, CSS, HTML, MySQL.</div></li>
 						<li><a href="http://innologin.hu">innologin.hu</a>: Company website. Role: development.</li>
-						<li><a href="http://igenx.hu">igenx.hu</a>: Web application. Role: application design, contact with the customer, development.<div>Technology stack: CodegnIter, jQuery, CSS, HTML, MySQL.</div></li>
+						<li><a href="http://igenx.hu">igenx.hu</a>: Web application. Role: application design, contact with customers, development.<div>Technology stack: CodegnIter, jQuery, CSS, HTML, MySQL.</div></li>
 					</ul>
           <p style="margin-bottom:0;">Other, internally used tools and systems:</p>
           <ul>
             <li>Several API's for social and mobile games.</li>
             <li>A data-driven cross-promotion system for mobile games.</li>
-            <li>Several application to help to publish and promote games: a CMS for microsites, in-game news.</li>
-            <li>A social game(un-published). Role: development of an API for the client, a HTML and javascript front-end and a back-end using CodeIgniter and MongoDB.</li>
+            <li>Several applications to help publishing and promoting games: a CMS for microsites, in-game news.</li>
+            <li>A social game(un-published). Role: development of an API for the client, a HTML and Javascript front-end and a back-end using CodeIgniter and MongoDB.</li>
           </ul>
-
 					<h2>Web-Server Ltd.<a href="http://web-server.hu" target="_blank">&raquo;</a><span>2008 december-2010 june</span></h2>
 					<p>Full-stack web developer.</p>
           <p style="margin-bottom:0">My job was to design and implement several internally used web applications, such as:</p>
           <ul style="margin-bottom:0;">
             <li>An error reporting application, to help the work and communication between a front and back office.</li>
-            <li>A server management tools.</li>
+            <li>A server management tool.</li>
           </ul>
           <p>Technology stack: ZendFramework, HTML, jQuery, CSS, MySQL</p>
 					
 					<h2>Freelancer <span>2006-present</span></h2>
-					<p style="margin-bottom:0">Developing websites and web applications for clients from Romania and USA.</p>
+					<p style="margin-bottom:0">Developing websites and web applications for different clients.</p>
 					<ul>
 						<li><a href="http://www.hotellycium.hu/" target="_blank">hotellycium.hu</a></li>
             <li><a href="http://est-vest.ro/" target="_blank">est-vest.ro</a></li>
