@@ -2,7 +2,7 @@
 	<div id="resume-wrap">
 		
 		<div id="contact-info" class = "vcard">
-			<p style="margin-bottom:30px;text-align:center;"><a href="<?php base_url() ?>docs/adobi-resume.pdf">download resume as pdf</a></p>
+			<p id="download-resume" style="margin-bottom:30px;text-align:center;"><a href="<?php base_url() ?>docs/adobi-resume.pdf">download resume as pdf</a></p>
 			<h1 class = "fn">
 				<div class="adobi-img"></div>
 				Attila Dobi <span class="download"></span>

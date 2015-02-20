@@ -753,7 +753,10 @@
 }
 
 @media print {
-		#resume-wrap a {
-			border-bottom: 1px solid #999;
-		}	
+	#resume-wrap a {
+		border-bottom: 1px solid #999;
+	}	
+	#download-resume {
+		display:none;
+	}	
 }
