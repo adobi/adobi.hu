@@ -37,7 +37,7 @@
 						<dd>
 					    <a href="http://adobi.hu" class = "web url">adobi.hu</a>, 
 					    <a href="http://www.linkedin.com/in/adobi" target = "_blank">LinkedIn</a>, 
-					    <a href="http://adobi.github.com/" target = "_blank">GitHub</a>, 
+					    <a href="http://github.com/adobi" target = "_blank">GitHub</a>, 
 					    <a href="http://facebook.com/adobi" target = "_blank">Facebook</a>, 
 					    <a href="http://twitter.com/adobi" target = "_blank">Twitter</a>
 				    </dd>
