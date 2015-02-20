@@ -25,7 +25,7 @@
 						<dd class = "tel">Married</dd>
 						<dd class="clear"></dd>
 						<dt>Cell</dt>
-						<dd class = "tel"><div style="margin-bottom:10px;">+40-74-02-98-580</div><div>+36-70-39-27-700</div> </dd>
+						<dd class = "tel"><div style="margin-bottom:10px;">+40 74 02 98 580 <span>(primary)</span></div><div>+36 70 39 27 700 <span>(not always turned on)</span></div> </dd>
 						<dd class="clear"></dd>
 						<dt>Email</dt>
 						<dd><a href="mailto:hello@adobi.hu" class = "email">hello[at]adobi.hu</a></dd>

@@ -671,6 +671,11 @@
 	.tipsy-south { background-position: bottom center; }
 	.tipsy-east { background-position: right center; }
 	.tipsy-west { background-position: left center; }
+
+	.tel span {
+		font-size: 12px;
+		color:#999;
+	}
 }
 
 @media screen and (max-width: 992px) {
