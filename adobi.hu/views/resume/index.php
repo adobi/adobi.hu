@@ -130,8 +130,8 @@
 					<h2>Programming languages</h2>
 					<p>
 						PHP <span>(
-                <a href = "http://laravel.com/" target="_blank">Laravel</a>
-                <a href = "http://symfony.com/" target="_blank">Symfony</a>
+                <a href = "http://laravel.com/" target="_blank">Laravel</a>,
+                <a href = "http://symfony.com/" target="_blank">Symfony</a>,
 						    <a href = "http://codeigniter.com" target="_blank">CodeIgniter</a>,
 						    <a href = "http://www.yiiframework.com" target="_blank">Yii</a>,
                 <a href = "http://framework.zend.com" target="_blank">Zend Framework</a>
