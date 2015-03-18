@@ -20,7 +20,7 @@
 			<ul class  = "personal ">
 				<li>
 					<span class = "information-name">Phone:</span>
-					+36-70-39-27-700 
+					+40-74-02-98-580 
 				</li>			
 				<!--
 				<li>
@@ -30,7 +30,7 @@
 				-->
 				<li>
 					<span class = "information-name">&nbsp;</span>
-					+40-74-02-98-580 
+					+36-70-39-27-700 
 				</li>
 				<li>
 					<span class = "information-name">Web:</span>
