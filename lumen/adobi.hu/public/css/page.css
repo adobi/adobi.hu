@@ -7,6 +7,10 @@ body {
   color: #777;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
@@ -19,7 +23,7 @@ body {
 .site-wrapper-inner {
   display: table-cell;
   vertical-align: top;
-  color: #B0BEC5;
+  /*color: #B0BEC5;*/
   color: #888;
   font-weight: 300;
   font-family: 'Lato';
@@ -44,11 +48,20 @@ body {
 
 .cover-heading {
   color: #A56548;
-  margin-bottom:30px;
+  color: #B0BEC5;
+  font-weight:100;
 }
 
 .lead {
-  margin-bottom:30px;
+  margin-bottom:50px;
+}
+
+.lead.sub-lead {
+  font-size: 28px;
+}
+
+.sub-lead a {
+  margin: 0 20px;
 }
 
 @media (min-width: 768px) {
@@ -66,10 +79,6 @@ body {
 .cover .btn-lg {
   padding: 10px 20px;
   font-weight: bold;
-}
-
-
-.mastfoot {
 }
 
 @media (min-width: 768px) {
@@ -98,7 +107,24 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 700px;
+    width: 900px;
+  }
+  .cover-heading {
+    font-size: 96px;
+    margin-bottom:70px;
+  }
+
+  .lead {
+    font-size: 36px;
+    margin-bottom:25px;
+  }
+
+  .cover-heading, .lead {
+  }
+
+  .lead.sub-lead {
+    margin-top:70px;
+    margin-bottom: 0;
   }
 }
 
