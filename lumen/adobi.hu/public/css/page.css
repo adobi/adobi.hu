@@ -1,0 +1,360 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  color: #777;
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  text-align: center;
+
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+  color: #B0BEC5;
+  color: #888;
+  font-weight: 300;
+  font-family: 'Lato';
+}
+.site-wrapper-inner a {
+  color: #1DCBD1;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.cover-heading {
+  color: #A56548;
+  margin-bottom:30px;
+}
+
+.lead {
+  margin-bottom:30px;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+
+.mastfoot {
+}
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+}
+
+/**
+  RESUME
+**/
+
+.adobi-img {
+  float:right;
+  border-radius: 50%;
+  width:80px;
+  height:80px;
+  display: inline-block;
+  background-image: url('../img/adobi-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#resume-wrap {
+  width:800px; margin:10px auto 60px;
+  font:16px Helvetica, sans-serif!important;
+  line-height:24px;
+  color:#111111!important;
+//margin-top:-50px;
+}
+
+#resume-wrap h1 {
+  line-height: 2;
+  margin-bottom: 20px;
+  font-size: 42px;
+  font-weight: bold;
+  letter-spacing: -2px;
+  border-bottom: 1px solid #999;
+  vertical-align: middle;
+}
+
+#resume-wrap h2 {
+  font-size: 19px; margin: 30px 0 5px 0; position: relative;
+}
+
+#resume-wrap h2:first-child {
+  margin-top:0;
+}
+
+
+#resume-wrap p {
+  margin: 0 0 10px 0;
+  line-height: 1.5;
+
+}
+
+#resume-wrap a {
+  color: #999; text-decoration: none; border-bottom: 1px dotted #999; background:transparent;
+}
+
+#resume-wrap .download {
+  font-size: 24px;
+  font-weight:normal;
+}
+
+#resume-wrap a:hover {
+  border-bottom-style: solid; color: black;
+}
+
+#resume-wrap ul { font-size: 14px; padding-left: 15px; list-style: square!important; }
+
+#resume-wrap ul li {position: relative;}
+
+#resume-wrap h2 span, #resume-wrap p span, #resume-wrap h2 a, #resume-wrap small  {
+//font-style: italic;
+  font-family: Georgia, Serif;
+  font-size: 16px;
+  color: #999;
+  font-weight: normal;
+}
+.duration {
+  float:right;
+}
+
+#resume-wrap small {
+  display:block;
+  margin-top:8px;
+}
+
+#resume-wrap li span {
+  margin-left:10px;
+  position:static;
+}
+
+#resume-wrap #contact-info > dl > dt{
+  float:left;
+  width:150px;
+  text-align: right;
+  padding-right: 26px;
+  font-weight: bold;
+  font-style: italic;
+  border-right: 0px solid #999;
+  font-size: 18px;
+  min-height:100px;
+  height: auto!important;
+  height:100%;
+}
+
+.personal-details dt {
+  float:left;
+  width:200px;
+  font-weight: normal;
+}
+.personal-details dd {
+  float:left;
+}
+
+#resume-wrap #contact-info dd{
+  float:left;
+  margin-left:50px;
+}
+#resume-wrap #contact-info dd.clear { float: none; margin: 0; height: 5px; }
+
+#resume-wrap #personal-info >dl > dt {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: right;
+  padding: 0 26px 0 0;
+  width: 150px;
+  float: left;
+  min-height:100px;
+  height: auto!important;
+  height:100%;
+  border-right: 0px solid #999;
+}
+#resume-wrap #personal-info > dl > dd {
+  width: 600px;
+  float: right;
+}
+#resume-wrap #personal-info dd.clear { float: none; margin: 0; height: 15px; }
+
+#personal-info li {
+  line-height: 2;
+}
+.clear {
+  clear:both;
+}
+
+.text-right {
+  text-align:right;
+}
+
+
+.experience h2 {
+  /*font-size:19px!important;*/
+}
+
+.experience .position {
+  margin-bottom:15px!important;
+  color:#999;
+}
+
+.experience .details {
+  border-left: 1px dotted #ccc;
+  padding-left: 15px;
+}
+
+.lang span {
+  color: #999;
+  margin-left:0!important;
+}
+
+.skills p {
+  margin: 0!important;
+}
+
+.skills h2:not(:first-child) {
+  margin-top:15px!important;
+}
+
+@media screen and (max-width: 992px) {
+  #header {
+    display: none;
+  }
+  #container {
+    width: 100%;
+  }
+  #mainpage {
+    float:none;
+    margin: 0 20px;
+  }
+  .message, .information {
+    float: none;
+    width: 100%;
+    border-radius: 5px;
+    margin-top:20px;
+    height: auto;
+    overflow: hidden;
+  }
+  .information {
+    padding:10px;
+  }
+
+  #resume-wrap {
+    width: 100%;
+    padding: 20px;
+    margin-top:0px;
+  }
+  #resume-wrap #personal-info > dl > dt {
+    float:none;
+    width: 100%;
+    border-right-width: 0;
+    border-bottom: 1px solid #999;
+    min-height:10px;
+    height:auto;
+    margin-bottom: 20px;
+    text-align: left;
+    line-height: 2;
+  }
+  #resume-wrap #personal-info > dl > dd {
+    float:none;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  html, body {
+    height: auto;
+  }
+  .message {
+    padding: 0 10px 10px 10px;
+  }
+  .my-name {
+    font-size: 32px;
+  }
+  .information .personal {
+    float:none;
+    margin:0;
+    font-size: 14px!important;
+  }
+  #resume-wrap h2 span {
+    position: relative;
+    display: block;
+    left:0;
+    margin-top:10px;
+  }
+
+  .personal-details dt {
+    float:none;
+    display: block;
+    margin-bottom:10px;
+    font-weight: bold;
+  }
+}
+
+@media print {
+  #resume-wrap a {
+    border-bottom: 1px solid #999;
+  }
+  #download-resume {
+    display:none;
+  }
+}

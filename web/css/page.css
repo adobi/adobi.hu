@@ -524,7 +524,7 @@
 	/*resume*/
 	#resume-wrap {
 		width:800px; margin:10px auto 60px;
-		font:16px Helvetica, sans-serif!important;
+		font: 16px "Helvetica Neue",Helvetica,Arial,sans-serif!important;
 		line-height:24px;
 		color:#111111!important;
 		//margin-top:-50px;
