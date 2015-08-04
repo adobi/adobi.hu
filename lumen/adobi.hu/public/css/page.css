@@ -11,7 +11,6 @@ body {
   text-transform: uppercase;
 }
 
-/* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
   width: 100%;
@@ -23,8 +22,7 @@ body {
 .site-wrapper-inner {
   display: table-cell;
   vertical-align: top;
-  /*color: #B0BEC5;*/
-  color: #888;
+  color: #B0BEC5;
   font-weight: 300;
   font-family: 'Lato';
 }
@@ -36,19 +34,14 @@ body {
   margin-left: auto;
 }
 
-/* Padding for spacing */
 .inner {
   padding: 30px;
-}
-
-.masthead-brand {
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 .cover-heading {
   color: #A56548;
   color: #B0BEC5;
+  color: black;
   font-weight:100;
 }
 
@@ -76,61 +69,42 @@ body {
 .cover {
   padding: 0 20px;
 }
-.cover .btn-lg {
-  padding: 10px 20px;
-  font-weight: bold;
+
+.cover-heading {
+  font-size: 96px;
+  margin-bottom:70px;
 }
 
+.lead {
+  font-size: 36px;
+  margin-bottom:25px;
+}
+
+.lead.sub-lead {
+  margin-top:70px;
+  margin-bottom: 0;
+}
+
+
 @media (min-width: 768px) {
-  /* Pull out the header and footer */
-  .masthead {
-    position: fixed;
-    top: 0;
-  }
-  .mastfoot {
-    position: fixed;
-    bottom: 0;
-  }
-  /* Start the vertical centering */
+
   .site-wrapper-inner {
     vertical-align: middle;
   }
-  /* Handle the widths */
-  .masthead,
-  .mastfoot,
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
 }
 
 @media (min-width: 992px) {
-  .masthead,
-  .mastfoot,
   .cover-container {
     width: 900px;
   }
-  .cover-heading {
-    font-size: 96px;
-    margin-bottom:70px;
-  }
-
-  .lead {
-    font-size: 36px;
-    margin-bottom:25px;
-  }
-
-  .cover-heading, .lead {
-  }
-
-  .lead.sub-lead {
-    margin-top:70px;
-    margin-bottom: 0;
-  }
 }
 
-/**
+/*
   RESUME
-**/
+*/
 
 .adobi-img {
   float:right;
@@ -347,14 +321,8 @@ body {
   }
 }
 @media screen and (max-width: 767px) {
-  html, body {
-    height: auto;
-  }
   .message {
     padding: 0 10px 10px 10px;
-  }
-  .my-name {
-    font-size: 32px;
   }
   .information .personal {
     float:none;
