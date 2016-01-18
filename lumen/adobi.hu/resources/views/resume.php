@@ -57,8 +57,15 @@
             <dt>Experience</dt>
             <dd class="experience">
                 <h2>
+                    wizando.com
+                    <a href="http://wizando.com" target="_blank">&raquo;</a><span class="duration">2016 january - present</span>
+                </h2>
+
+                <p class="position">Full-stack web developer</p>
+
+                <h2>
                     Webapix Interactive
-                    <a href="http://webapix.hu" target="_blank">&raquo;</a><span class="duration">2015 april-present</span>
+                    <a href="http://webapix.hu" target="_blank">&raquo;</a><span class="duration">2015 april - 2016 january</span>
                 </h2>
 
                 <p class="position">Full-stack web developer</p>
@@ -75,7 +82,7 @@
                 </div>
                 <h2>
                     wizando.com
-                    <a href="http://wizando.com" target="_blank">&raquo;</a><span class="duration">2012 october-2015 april</span>
+                    <a href="http://wizando.com" target="_blank">&raquo;</a><span class="duration">2012 october - 2015 april</span>
                 </h2>
 
                 <p class="position">Front-End Engineer</p>
@@ -94,7 +101,7 @@
                 </div>
 
                 <h2>
-                    Invictus-Games Ltd.<a href="http://invictus.com" target="_blank">&raquo;</a><span class="duration">2010 july-2012 october</span>
+                    Invictus-Games Ltd.<a href="http://invictus.com" target="_blank">&raquo;</a><span class="duration">2010 july - 2012 october</span>
                 </h2>
 
                 <p class="position">Full-stack web developer</p>
@@ -126,7 +133,7 @@
                 </div>
 
                 <h2>
-                    Web-Server Ltd.<a href="http://web-server.hu" target="_blank">&raquo;</a><span class="duration">2008 december-2010 june</span>
+                    Web-Server Ltd.<a href="http://web-server.hu" target="_blank">&raquo;</a><span class="duration">2008 december - 2010 june</span>
                 </h2>
 
                 <p class="position">Full-stack web developer</p>
