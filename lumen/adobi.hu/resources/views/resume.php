@@ -191,8 +191,9 @@
                 <h2>Programming languages</h2>
 
                 <p>
-                    PHP <span>(Laravel, Symfony, CodeIgniter, Yii,Zend Framework)</span>,
-                    Javascript <span>(Angular2, Angular1, jQuery, TypeScript)</span>,
+                    PHP <span>(Laravel, Symfony, CodeIgniter, Yii, Zend Framework)</span> <br>
+
+                    Javascript <span>(Angular 2, Angular 1, jQuery, TypeScript)</span> <br>
                     Java(J2SE),
                     C
                 </p>
@@ -200,7 +201,7 @@
                 <h2>Markup languages</h2>
 
                 <p>
-                    HTML(5), CSS<span>(2, 3)</span>, XML, JSON
+                    HTML(5), CSS<span>(Bootstrap)</span>, XML, JSON
                 </p>
 
                 <h2>Databases</h2>
